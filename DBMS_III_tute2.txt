@@ -38,6 +38,7 @@ INSERT INTO Docters VALUES(Doctor_t('1223441234','DR.K.Perera','Gynecologisst'))
 INSERT INTO Docters VALUES(Doctor_t('123442131','DR.P.Weerasinghe','Dermatologist'));
 INSERT INTO Docters VALUES(Doctor_t('2342111322','Prof.S.Fernando','Pediatrician'));
 INSERT INTO Docters VALUES(Doctor_t('2344114344','DR.K.Sathgunanthan','Pediatrician'));
+INSERT INTO Docters VALUES(Doctor_t('2344114344','DR.K.Sathgunanthan','Pediatrician'));
 
 
 INSERT INTO patients VALUES (patient_t('732821122V','Sampath Weerasinghe','23-JAN-73','0332124222',HospitaVisit_tlb(HospitaVisit_t(50.00,'24-MAY-06',SELECT ref(D) FROM Doctor_t D WHERE D.regNO ='1223441234',500.00),HospitaVisit_t(75.00,'25-MAY-06',SELECT ref(D) FROM Doctor_t D WHERE D.regNO ='2342111322',550.00),HospitaVisit_t(90.00,'29-MAY-06',SELECT ref(D) FROM Doctor_t D WHERE D.regNO ='2344114344',300.00))))
